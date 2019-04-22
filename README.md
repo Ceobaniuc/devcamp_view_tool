@@ -1,4 +1,4 @@
-# DevcampViewTool
+# Rodape
 
 > Vários métodos específicos de visualização para aplicativos que uso
 
@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'devcamp_view_tool'
+gem 'rodape'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install devcamp_view_tool
+    $ gem install rodape
 
 ## Usage
 
 ```ruby
-DevcampViewTool::Renderer.copyright 'Pedro Ceobaniuc', 'Todos os direitos reservados'
+Rodape::Renderer.copyright 'Pedro Ceobaniuc', 'Todos os direitos reservados'
 ```
 
 ## Development
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/devcamp_view_tool.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rodape.

@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "devcamp_view_tool/version"
+require "rodape/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "devcamp_view_tool"
-  spec.version       = DevcampViewTool::VERSION
+  spec.name          = "rodape"
+  spec.version       = Rodape::VERSION
   spec.authors       = ["Pedro Henrique Alves Mourão Ceobaniuc"]
   spec.email         = ["pedroceobaniuc25@gmail.com"]
 
   spec.summary       = %q{Vários métodos específicos de visualização para aplicativos que uso}
   spec.description   = %q{Fornece dados HTML gerados para aplicativos Rails.}
-  spec.homepage      = "https://github.com/Ceobaniuc/devcamp_view_tool.git"
+  spec.homepage      = "https://github.com/Ceobaniuc/rodape.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
