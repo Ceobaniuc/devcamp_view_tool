@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-gem 'teste'
+gem 'devcamp_view_tool'
 ```
 
 ## Development
