@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-DevcampViewTool::Renderer.copyright 'Pedro Ceobaniuc', 'Todos os direitos reservados'
+gem 'teste'
 ```
 
 ## Development
