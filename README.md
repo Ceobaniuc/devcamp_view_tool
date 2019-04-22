@@ -1,4 +1,4 @@
-# Rodape
+# DireitosAutorais
 
 > Vários métodos específicos de visualização para aplicativos que uso
 
@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rodape'
+gem 'direitos_autorais'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rodape
+    $ gem install direitos_autorais
 
 ## Usage
 
 ```ruby
-Rodape::Renderer.copyright 'Pedro Ceobaniuc', 'Todos os direitos reservados'
+DireitosAutorais::Renderer.copyright 'Pedro Ceobaniuc', 'Todos os direitos reservados'
 ```
 
 ## Development
@@ -32,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rodape.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/direitos_autorais.
